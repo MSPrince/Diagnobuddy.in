@@ -1,0 +1,43 @@
+/* styles.css */
+.contact-us{
+    background: url(https://img.freepik.com/premium-photo/tele-medicine-conceptmedical-doctor-online-communicating-patient-vr-medical-interface_102957-967.jpg?w=1060);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.contact-us .container {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(43, 42, 42);
+    background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us .form-label {
+    font-weight: bold;
+}
+
+.contact-us .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-us .btn-primary {
+    background-color: #027a7e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-us .btn-primary:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,33 @@
+/* Custom CSS for responsiveness */
+@media (max-width: 768px) {
+    .card-link {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+.card-img-top{
+    width: 200px !important;
+    height: 200px !important;
+    margin: auto;
+    margin-top: 20px;
+}
+.card {
+background: rgba(255, 255, 255, 0.255) !important;
+    /* Adjust opacity as needed */
+    backdrop-filter: blur(10px) !important;
+    /* Applies a blur effect to the background */
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
+    /* Adjust shadow properties */
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

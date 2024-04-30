@@ -1,0 +1,31 @@
+
+
+.superNav i {
+    color: #FFD43B;
+    font-size: 15px;
+    animation: drop 1s ease forwards;
+    animation-delay: 5s;
+}
+
+@keyframes drop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.mobNo,
+.mail {
+    color: white;
+}
+
+.superNav {
+    font-size: 13px;
+    background-color: #027a7e;
+}

@@ -1,0 +1,112 @@
+
+.navbar {
+    background-color: #027a7e;
+}
+
+@media screen and (max-width:540px) {
+    .centerOnMobile {
+        text-align: center
+    }
+}
+
+.navbar .megamenu {
+    padding: 1rem;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+}
+
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px) {
+
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
+}
+
+/* ============ mobile view .end// ============ */
+
+/* --------------------------------------------------------logo animation */
+.css-text-mask {
+    font-size: 25px !important;
+    font-family: Arial Black, Gadget, sans-serif;
+    font-weight: bold;
+    background-image: url('https://img.freepik.com/premium-photo/abstract-bokeh-background_996449-1641.jpg?w=900');
+    background-position: 0px 0px;
+    -webkit-animation: animatedBackground 10s linear infinite normal;
+    -webkit-text-stroke-width: .5px;
+    /* -webkit-text-stroke-color: #2907e6; */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+}
+
+
+@-webkit-keyframes animatedBackground {
+    0% {
+        background-position: 0 0
+    }
+
+    100% {
+        background-position: 500px 0
+    }
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.login1 {
+    border: .1px solid rgb(231, 228, 228);
+    margin-right: 5px;
+    padding: 3px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Background color with opacity */
+    backdrop-filter: blur(10px);
+    /* Background blur */
+    border-radius: 5px;
+    padding: 2px 5px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    /* Box shadow */
+    color: white;
+}
+
+@media screen and (max-width: 996px) {
+    .lo {
+        width: 80px;
+        text-align: center;
+    }
+
+    /* Styles for screens up to 768px wide */
+}
+
+.nav-link{
+    font-size: 14px !important;
+}
+
+.navbar-toggler{
+    background-color: white !important;
+}
+.navbar-toggler-icon{
+    background-color: rgba(6, 6, 6, 0.419) !important;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ */

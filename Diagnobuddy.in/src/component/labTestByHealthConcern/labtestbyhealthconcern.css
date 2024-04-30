@@ -1,0 +1,45 @@
+.heading-mainn {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: black;
+}
+
+.heading-mainn:hover {
+    -webkit-background-clip: text;
+    /* three major properity */
+    background-clip: text;
+    background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2620.jpg?t=st=1709747239~exp=1709750839~hmac=376bfd090ccd522d6682ae399ad0301f15a594e7adc5987348de6d9b8091c204&w=900);
+    background-position: center;
+    color: transparent;
+    cursor: pointer;
+}
+/* Lab-Tests-by-Health-Concern Start */
+.Lab-Tests-by-Health-Concern {
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+    padding: 0 0 10px 0;
+    /* border: 2px solid red; */
+}
+
+.Lab-Tests-by-Health-Concern::-webkit-scrollbar {
+    display: none;
+}
+
+.Lab-Tests-by-Health-Concern-img a {
+    cursor: pointer;
+}
+
+.Lab-Tests-by-Health-Concern-img img {
+    width: 180px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.Lab-Tests-by-Health-Concern-img img:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Lab-Tests-by-Health-Concern End */

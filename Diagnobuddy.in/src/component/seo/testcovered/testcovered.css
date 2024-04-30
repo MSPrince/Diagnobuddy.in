@@ -1,0 +1,61 @@
+.seo{
+ text-align: justify;
+}
+
+.seo .seoheading{
+font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.918)
+}
+
+.seo .link {
+    color: gray;
+        font-family: Inter, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        text-decoration: none solid rgb(48, 54, 60);
+        word-spacing: 0px;
+}
+
+.seo .link:hover {
+    color: #10847e;
+    font-weight: 400;
+}
+
+/* +++++++++++++++++++++++++ */
+.home-seo {
+    text-align: justify;
+}
+
+.home-seo {
+    background-color: #f8f9fa;
+    /* Example: change background color for home-seo */
+    padding: 20px;
+}
+
+.home-seo h5 {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.home-seo h6 {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.home-seo p {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none solid rgb(48, 54, 60);
+    word-spacing: 0px;
+}
+
+/* ===========================Seo Section End============================================= */

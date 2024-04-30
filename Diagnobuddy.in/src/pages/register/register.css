@@ -1,0 +1,82 @@
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-photo/crumpled-paper-texture_1048-5358.jpg?t=st=1714151924~exp=1714155524~hmac=d40044956d55eb5ec93144123a47040ca9385cdd36b4eae63fad5f29ea798a7e&w=360);
+    background-size: 100% 100%;
+}
+.register-container {
+    width: 400px !important;
+    margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.5);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.register-container h2 {
+    text-align: center;
+}
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-container label {
+    margin-bottom: 5px;
+}
+
+.register-container input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.register-container button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.register-container button:hover {
+    background-color: #0056b3;
+}
+
+.register-container p {
+    text-align: center;
+}
+
+.register-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-container button.google {
+    background-color: #db4437;
+    margin-top: 10px;
+}
+
+.register-container button.google:hover {
+    background-color: #c13584;
+}
+
+@media (max-width: 600px) {
+    .register-container {
+        padding: 10px;
+    }
+
+    .register-container input,
+    .register-container button {
+        padding: 5px;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+}
